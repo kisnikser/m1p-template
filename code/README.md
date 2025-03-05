@@ -5,11 +5,7 @@ This repository contains source code for our paper. The code includes data proce
 > [!IMPORTANT]
 > We use jupyter notebooks for visualization purposes only. Please, keep your code in Python scripts.
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-
-## Installation <a name="installation"></a>
+## Installation
 
 Clone the repo:
 ```bash
@@ -22,6 +18,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Usage <a name="usage"></a>
+## Usage
 
 TODO
