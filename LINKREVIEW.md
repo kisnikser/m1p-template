@@ -1,10 +1,10 @@
 # LinkReview
 
-- Here we have collect info about all the works that may be useful for writing our paper
+- Here we collect all the works that may be useful for writing our paper
 - We divide these works by topic in order to structure them
 
 > [!NOTE]
-> This review table will be updated, so it is not a final version
+> This review table will be updated, so it is not a final version.
 
 | Topic | Title | Year | Authors | Paper | Code | Summary |
 | :--- | :--- | :---: | :--- | :---: | :---: | :--- |
