@@ -10,7 +10,7 @@ This repository contains source code for our paper. The code includes data proce
 Clone the repo:
 ```bash
 git clone https://github.com/kisnisker/m1p-template.git
-cd code
+cd m1p-template/code
 ```
 
 Install dependencies:
