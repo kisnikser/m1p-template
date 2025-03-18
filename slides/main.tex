@@ -1,0 +1,93 @@
+\documentclass{beamer}
+\input{new_commands}
+
+\beamertemplatenavigationsymbolsempty
+\usecolortheme{beaver}
+\setbeamertemplate{blocks}[rounded=true, shadow=true]
+\setbeamertemplate{footline}[page number]
+%
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb,amsfonts,amsmath,mathtext}
+\usepackage{subfig}
+\usepackage[all]{xy} % xy package for diagrams
+\usepackage{array}
+\usepackage{multicol}% many columns in slide
+\usepackage{hyperref}% urls
+\usepackage{hhline}%tables
+
+% Your figures are here:
+% \graphicspath{ {figs} }
+
+%----------------------------------------------------------------------------------------------------------
+\title[\hbox to 56mm{Short Title}]{Title}
+\author{Name Surname}
+\institute{\small{
+Moscow Institute of Physics and Technology\par
+\emph{Course:} My first scientific paper\par
+\emph{Consultant:} Name Surname, PhD/DSc\par
+\emph{Expert:} Name Surname, PhD/DSc\par
+}}
+\date{2025}
+
+%----------------------------------------------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}
+\thispagestyle{empty}
+\maketitle
+\end{frame}
+%-----------------------------------------------------------------------------------------------------
+\begin{frame}{Title or a main part of it}
+Couple of motivational sentences \ldots
+\begin{block}{Problem}
+Investigate \ldots 
+\end{block}
+\begin{block}{The method needs a proper name here}
+Put the brief idea here \ldots
+\end{block}
+\begin{block}{The solution} Your results appears twice, as a promise here and as a contribution later \ldots
+\begin{enumerate}[1)]
+\item Set \ldots
+\item Put \ldots
+\item Get \ldots
+\end{enumerate}
+\end{block}
+\end{frame}
+%-----------------------------------------------------------------------------------------------------
+\begin{frame}{One-slide talk}
+What the audience sees on the figure.
+\begin{columns}
+\begin{column}{0.3\textwidth}
+\begin{enumerate}[1)]
+    \item Notation
+    \item Subjects
+\end{enumerate}
+\end{column}
+\begin{column}{0.7\textwidth}
+	\includegraphics[width=1\textwidth]{example-image}      
+\end{column}
+\end{columns}
+\bigskip
+What are the consequences?
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}{Problem statement}
+TODO
+\end{frame}
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}{Solution}
+TODO
+\end{frame}
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}{Experiments}
+TODO
+\end{frame}
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}{Conclusion}
+TODO
+\end{frame}
+%----------------------------------------------------------------------------------------------------------
+\end{document} 

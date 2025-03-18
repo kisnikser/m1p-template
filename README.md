@@ -26,7 +26,7 @@
 - [LinkReview](LINKREVIEW.md)
 - [Code](code)
 - [Paper](paper/main.pdf)
-- [Slides](slides)
+- [Slides](slides/main.pdf)
 
 ## Abstract
 
